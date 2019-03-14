@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- / 주황색 : 속성 / ="연두색" : 속성 값 / -->
+<!--  -->
+
+<head>
+  <meta charset="utf-8">
+  <title>Jooney</title>
+</head>
+
+<body>
+  <center>
+    <font size="5" color="red">
+      <!-- 글자 크기와 색상 등 설정 가능 -->
+      주석을 달고 싶으면 〈!--를 입력하세요--〉 혹은 "Ctrl + /" 를 입력하세요!!
+    </font>
+  </center>
+  <br>
+  ID : <input type="text" placeholder="ID를 입력하세요.">
+  <br>
+  Password : <input type="password" placeholder="Password를 입력하세요 (Max 12)" size="30" maxlength="12">
+  <br>
+  안심로그인 <input type="radio" name="loginType"> <!-- name이 같은 것끼리 하나씩만 선택됨 -->
+  그냥로그인 <input type="radio" name="loginType" checked> <!-- cheked는 처음 접속시 체크되어있는 것 -->
+  <br>
+  사과 <input type="radio" name="fruit" checked>
+  포도 <input type="radio" name="fruit">
+  딸기 <input type="radio" name="fruit">
+  <br>
+  <input type="button" value="로그인"> <!-- HTML 툭성상 로그인, 취소에 대한 기능을 집어넣을 수 없음 -->
+  <input type="button" value="취소">
+  <br>
+  <textarea name="name" rows="8" cols="80"></textarea>
+
+  <ol type="i">
+    <li>킹갓</li>
+    <li>제너럴</li>
+    <li>엠페러</li>
+    <li>충무공</li>
+    <li>마제스티</li>
+  </ol>
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+  </ul>
+
+  <select>
+    <option value="" selected>1번</option>    <!-- selected는 checked와 유사한 옵션 -->
+    <option value="">2번</option>
+    <option value="">3번</option>
+    <option value="">4번</option>
+    <option value="">5번</option>
+  </select>
+
+</body>
+
+</html>
