@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>css실습</title>
+  <style>
+    h1 {color: green;}
+    h2 {}
+    .h2 {color: red;}
+    #b3 {color: blue;}
+    div>h3 {color: brown}
+    .ph3 {color: grey}
+    .ph3+#ph3 {color: beige}
+    div>div>h3 {color: brown}
+    .ph4 {color: grey}
+    .ph4+#ph4 {color: beige}
+    h4 {color: blueviolet}
+    .h4b {color: blueviolet}
+    .h4d {color: darkblue}
+    .h4d+#b4g {color: gold}
+    .h4d+#b4h {color: hotpink}
+    .h4d+#b4i {color: indigo}
+    div>h5 {color: purple}
+    #h5b {color: brown}
+    .h5k {color: khaki}
+    .h5b {color: brown}
+    div.ph5>h5 {}
+    .h5m {color: maroon}
+    .h5o {color: orange}
+    div.h5black>h5.h5b {color: black}
+    div#h5blue>h5.h5b {color: blue}
+    h6 {color: gold}
+    div.ph6>h6 {color: tomato}
+    div.ph6>div>h6 {color: chocolate}
+  </style>
+</head>
+
+<body>
+  <h1>green</h1>
+  <h2 class="h2">red</h2>
+  <h2 id="b3">blue</h2>
+
+  <div>
+    <h3>brown</h3>
+    <h3 class="ph3">grey</h3>
+    <h3 class="ph3" id="ph3">beige</h3>
+  </div>
+
+  <div>
+    <div>
+      <h3>brown</h3>
+      <h3 class="ph4">grey</h3>
+      <h3 class="ph4" id="ph4">beige</h3>
+    </div>
+  </div>
+
+  <h4>blueviolet</h4>
+  <h4 class="h4b">blueviolet</h4>
+  <h4 class="h4b">blueviolet</h4>
+  <h4 class="h4d">darkblue</h4>
+  <h4 class="h4d">darkblue</h4>
+  <h4 class="h4d" id="b4g">gold</h4>
+  <h4 class="h4d" id="b4h">hotpink</h4>
+  <h4 class="h4d" id="b4i">indigo</h4>
+
+  <div>
+    <h5>purple</h5>
+    <h5 id="h5b">brown</h5>
+    <h5 class"h5k">khaki</h5>
+    <h5 class"h5k">khaki</h5>
+  </div>
+  <div class="ph5">
+    <h5 class="h5m">maroon</h5>
+    <h5 class="h5m">maroon</h5>
+    <h5 class="h5o">orange</h5>
+    <h5 class="h5o">orange</h5>
+  </div>
+
+  <div>
+    <h5 class="h5b">brown</h5>
+  </div>
+  <div class="h5black">
+    <h5 class="h5b">black</h5>
+  </div>
+  <div id="h5blue">
+    <h5 class="h5b">blue</h5>
+  </div>
+  <h6>gold</h6>
+  <div class="ph6">
+    <h6>tonato</h6>
+  </div>
+  <div class="ph6">
+    <div>
+      <h6>chocolate</h6>
+    </div>
+  </div>
+</body>
+
+</html>

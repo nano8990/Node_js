@@ -37,4 +37,9 @@ app.get(`/practice`, function(req, res) {    // rawfile이라는 파일이 다�
   res.sendfile("files/practice.html");
 });
 
+app.get(`/practice2`, function(req, res) {    // rawfile이라는 파일이 다운로드 됨
+  res.sendfile("files/practice2.html");
+});
+
+
 console.log("running");   // cmd에서 잘 작동이 됐는지 메시지 출력 여부를 통해 확인
